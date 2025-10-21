@@ -1,0 +1,32 @@
+
+
+MAMAS FOOD Website
+Overview
+This is a simple HTML website for "MAMAS FOOD", a restaurant that offers a warm and welcoming dining experience with homemade food. The site includes basic navigation and content sections, providing information about the restaurant, its mission, and contact details.
+
+File Structure
+index.html: The main HTML file for the home page.
+about.html: Page with information about the restaurant.
+menu.html: Page for the restaurant's menu (not included in the current snippet).
+stylesheet.css: CSS file for styling the HTML pages.
+download.png.LOGO.png: Logo image for the navigation bar.
+HTML Structure
+Header: Contains the restaurant’s logo and navigation menu.
+Main: Provides an introduction to the restaurant, including its history, mission, and team.
+Footer: Includes mission statement, contact information, and copyright notice.
+Instructions
+Setup:
+
+Ensure you have all files in the same directory or correctly link them if using a different structure.
+Place the stylesheet.css in the same directory or adjust the link path as needed.
+Ensure download.png.LOGO.png is available and correctly named for proper display.
+Customization:
+
+Update the text in the HTML files to reflect any changes in the restaurant's details or mission.
+Modify stylesheet.css to adjust the styling according to your preferences.
+Viewing:
+
+Open index.html in a web browser to view the website.
+Contact:
+
+For any issues or modifications, please contact: mathapelmeriam@gmail.com

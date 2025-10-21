@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color:rgb(51, 25, 0);
+    color: white;
+    padding: 0px 0;
+    top: 0;
+    width: 100%;
+}
+header nav ul{
+    list-style-type: none;
+display: flex;
+height: 50px;
+}
+header nav ul li{
+    margin-left:90px;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(169, 52, 224);
+}
+a.active, a:hover{
+    color: rgb(165, 255, 20);
+}
+.icons ion-icon{
+    color:aquamarine;
+    font-size: 40px;
+    padding-left: 14px;
+    padding-top:5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color:blueviolet;
+}
+nav{
+    display:flex;
+    padding: 30px;
+    line-height: 40px;
+}
+.logo{
+    font-size: 30px;
+    line-height: 50px;
+
+}
+img{
+    width: 100px;
+    height:100%;
+    border-radius: 40;
+    cursor: pointer;
+     scroll-margin-inline-start: 9px;
+    transition: 0,9s;
+    position:top-right-corner;
+}
+img:hover{
+    border: 2px solid #fff;
+}
+
+footer{
+    background-color:rgb(32, 18, 0);
+    color: white;
+}
+
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+}
+.footerbottom{
+    text-align: center;
+    border-color: rgb(26, 14, 1);
+}
+.footersection, h3{
+    margin-top: 0;
+    
+}
+footer{
+    position: fixed;
+    width:100%;
+    line-height: 15px;
+    bottom: 0;
+    background-size: 100% 50%;
+}
+footer span{
+    font-size: 20px;
+    line-height: 8px;
+}
+body{
+    background-image: url('IMAGE/burger.jpg');
+
+}
+ body{
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    
+}
+
+h2,p{
+    color: #fff;
+}
+
+
+
+ 
+#contact-form{
+    max-width: 800px;
+    margin: 40px auto;
+    padding:10px;
+    background-color:saddlebrown;
+    border:1px solid #fff;
+    box-shadow: 0 0 10px black;
+
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+#contact-form input,#contact-form
+textarea{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+#contact-form
+button[type="submit"]:hover{
+    background-color: #4CAF50;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#order-table{
+    border-collapse:collapse;
+    width: 100%;
+
+}
+
+#order-table th,#order-table td{
+    border: 20px solid;
+    padding: 5px;
+    text-align:left;
+    color:#fff;
+    background-color: black ;
+}
+
+#order-table th{
+    background-color: saddlebrown ;
+}
+
+#submit-order{
+    background-color: #4CAF50;
+    color: red;
+    padding:7px 15px;
+    border:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align:bottom;
+}
+
+#submit-order:hover{
+    background-color: yellow;
+}
+
+
+#message {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:brown;
+    text-align: center;
+    font-weight: bolder;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color:brown;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+button:hover {
+    background-color:yellow;
+}
+
+button:focus {
+    outline: none;
+}
+
